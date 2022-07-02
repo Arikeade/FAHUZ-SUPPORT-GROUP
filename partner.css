@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: hsla(150, 50%, 4%, 0.804);
+}
+
+.img {
+    width: 78px;
+    height: 72px;
+}
+
+
+
+h4 {
+    font-size: 18px;
+    margin-left: 5px;
+    font-family: "Poppins", sans-serif;
+    text-shadow: green 2px 0, green 2px 0;
+}
+
+.mydropdown {
+    display: none;
+}
+
+.partner {
+    background-image:  linear-gradient(
+        45deg,
+        rgba(55, 45, 45, 0.75),
+        rgba(36, 45, 53, 0.75)
+    ),
+    url('images/our-partners.jpeg');
+    height: 450px;
+    width: 100%;
+    margin: auto;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.part {
+    padding-top: 6em;
+    color: #fff;
+    font-size: 38px;
+    letter-spacing: 5px;
+    font-family: 'Jost', sans-serif;
+    text-shadow: green 2px 0, green 2px 0;
+}
+
+.collect{
+    width: 50%;
+    margin: auto;
+    padding-top: 50px; 
+}
+
+.collect li {
+    font-size: 22px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    line-height: 50px;
+    letter-spacing: 2px;
+}
+
+.first {
+    margin-top: 5em;
+    margin-bottom: 5em;
+    text-align: center;
+}
+
+.paragraph {
+    font-size: 30px;
+    font-family: 'Jost', sans-serif;
+}
+
+.person {
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+}
+
+.subject {
+    font-size: 20px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.number {
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+}
+
+
+
+.footer {
+    width: 90%;
+    margin: auto;
+}
+
+footer {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    background-color: #000;
+    padding-top: 6em;
+    padding-bottom: 2em;
+    }
+
+    .fahuz {
+    font-size: 16px;
+    margin-left: 5px;
+    color: green;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    }
+
+    .foot {
+    color: #fff;
+    font-family: "Roboto Slab", serif;
+    font-weight: 100;
+    font-size: 14px;
+    }
+
+    .foot .commission {
+    text-decoration: underline;
+    }
+
+    .speech {
+    margin-right: 80px;
+    }
+
+    .foot a {
+    color: green;
+    text-decoration: none;
+    }
+
+    .foot a:hover {
+    text-decoration: underline;
+    }
+
+    .list {
+    color: #fff;
+    }
+
+    .list p {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: green;
+    font-family: "Jost", sans-serif;
+    text-decoration: underline;
+    }
+
+    .list li {
+    list-style-type: circle;
+    font-family: "Roboto Slab", serif;
+    font-weight: 100;
+    font-size: 14px;
+    margin-top: 10px;
+    }
+
+    .list li a {
+    text-decoration: none;
+    color: #fff;
+    }
+
+    .list li a:hover {
+    text-decoration: underline;
+    color: wheat;
+    }
+
+    .touch {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: green;
+    font-family: "Jost", sans-serif;
+    text-decoration: underline;
+    }
+
+    .mail {
+    color: white;
+    font-family: "Roboto Slab", serif;
+    font-weight: 100;
+    font-size: 14px;
+    margin: 20px 0px;
+    }
+
+    .mail a {
+    color: #fff;
+    text-decoration: none;
+    }
+
+    .mail a:hover {
+    color: wheat;
+    text-decoration: underline;
+    }
+
+    
+
+
+
+    @media (max-width: 600px) {
+    .mydropdown {
+        display: block;
+    }
+
+    .navbar-nav {
+        display: none;
+        color: white;
+    }
+
+    .part {
+    padding-top: 8em;
+    font-size: 30px;
+    }
+
+    .collect{
+        width: 80%;
+        margin: auto;
+        padding-top: 50px; 
+    }
+
+    .collect li {
+        font-size: 16px;
+    }
+
+    .paragraph {
+        font-size: 24px;
+    }
+
+    .person {
+        font-size: 16px;
+    }
+
+    .subject {
+        font-size: 16px;
+    }
+
+    .number {
+        font-size: 14px;
+    }
+
+    .partner {
+        height: 500px;
+        width: 100%;
+        margin: auto;
+    }
+
+
+    footer {
+    margin-top: -3em;
+    padding-bottom: 5em;
+    width: 100%;
+    }
+    .fahuz {
+        font-size: 16px;
+
+        text-align: left;
+        color: green;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+    }
+
+    .footer {
+        display: block;
+    }
+
+    .allign {
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+    .foot {
+        color: #fff;
+        font-family: "Roboto Slab", serif;
+        font-weight: 100;
+        font-size: 14px;
+    }
+
+    .foot .commission {
+        text-decoration: underline;
+        color: green;
+        padding-top: 50px;
+        font-size: 18px;
+        font-family: "Jost", sans-serif;
+    }
+
+    .list p {
+        padding-top: 50px;
+    }
+
+    .list li {
+        margin-top: 10px;
+    }
+
+}

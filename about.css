@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: hsla(150, 50%, 4%, 0.804);
+}
+
+.img {
+    width: 78px;
+    height: 72px;
+}
+
+
+
+h4 {
+    font-size: 18px;
+    margin-left: 5px;
+    font-family: "Poppins", sans-serif;
+    text-shadow: green 2px 0, green 2px 0;
+}
+
+.mydropdown {
+    display: none;
+}
+
+.about {
+    background-image:  linear-gradient(
+        45deg,
+        rgba(0, 0, 0, 0.35),
+        rgba(41, 48, 55, 0.75)
+    ),
+    url("./images/atul-pandey-0f3bZHXZSz8-unsplash.jpg");
+    width: 100%;
+    margin: auto;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    text-align: center;
+}
+
+
+.h1 {
+    padding-top: 4em;
+    font-family: 'Jost', sans-serif;
+    color: #fff;
+    text-shadow: black 2px 0, gray 2px 0;
+    margin-bottom: -8px;
+    letter-spacing: 5px;
+}
+
+.underline {
+    border-top: 5px solid green;
+    width: 90px;
+    display: inline-block;
+    text-align: center;
+}
+
+.p {
+    font-size: 20px;
+    color: aliceblue;
+    padding-top: 20px;   
+}
+
+.count {
+    font-size: 80px;
+    padding-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-bottom: -5px;
+}
+
+.h6 {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.myrow {
+    padding-top: 6em;
+}
+
+.bg {
+    background-color:#4B4F58;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: #fff;
+}
+
+.history {
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+}
+
+.mission {
+    text-align: center;
+    padding-bottom:30px ;
+}
+
+.h5 {
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+}
+
+.aims {
+    font-size: 34px;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
+    letter-spacing: 5px;
+}
+
+.passion {
+    margin-top: 5em;
+}
+
+.obj {
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+}
+
+.obj li {
+    letter-spacing: 2px;
+}
+
+.mcil img {
+    border-radius: 50px;
+}
+
+.activities {
+    background-image:  linear-gradient(
+        45deg,
+        rgba(0, 0, 0, 0.35),
+        rgba(41, 48, 55, 0.75)
+    ),
+    url("./images/ngo-seeks-partnership.webp");
+    width: 100%;
+    margin: auto;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.act {
+    font-size: 38px;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
+    letter-spacing: 5px;
+    color: #fff;
+    padding-top: 5em;
+    text-shadow: black 5px 0, darkgreen 5px 0;
+}
+
+.allign {
+    margin-top: 50px;
+}
+
+.task{
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+}
+
+.task li {
+    line-height: 40px;
+}
+
+.contain {
+    margin-top: 8em;
+    padding-bottom: 5em;
+}
+
+.member{
+    font-size: 28px;
+    font-family: 'Jost', sans-serif;
+    text-align: center;padding-bottom: 50px;
+}
+
+.mycol {
+    padding-top: 30px;
+}
+
+.ul li {
+    line-height: 50px;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+}
+
+.mcol img {
+    width: 450px;
+    border-radius: 50px;
+}
+
+.footer {
+    width: 90%;
+    margin: auto;
+    }
+
+footer {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    background-color: #000;
+    padding-top: 6em;
+    padding-bottom: 2em;
+    }
+
+    .fahuz {
+    font-size: 16px;
+    margin-left: 5px;
+    color: green;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    }
+
+    .foot {
+    color: #fff;
+    font-family: "Roboto Slab", serif;
+    font-weight: 100;
+    font-size: 14px;
+    }
+
+    .foot .commission {
+    text-decoration: underline;
+    }
+
+    .speech {
+    margin-right: 80px;
+    }
+
+    .foot a {
+    color: green;
+    text-decoration: none;
+    }
+
+    .foot a:hover {
+    text-decoration: underline;
+    }
+
+    .list {
+    color: #fff;
+    }
+
+    .list p {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: green;
+    font-family: "Jost", sans-serif;
+    text-decoration: underline;
+    }
+
+    .list li {
+    list-style-type: circle;
+    font-family: "Roboto Slab", serif;
+    font-weight: 100;
+    font-size: 14px;
+    margin-top: 10px;
+    }
+
+    .list li a {
+    text-decoration: none;
+    color: #fff;
+    }
+
+    .list li a:hover {
+    text-decoration: underline;
+    color: wheat;
+    }
+
+    .touch {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: green;
+    font-family: "Jost", sans-serif;
+    text-decoration: underline;
+    }
+
+    .mail {
+    color: white;
+    font-family: "Roboto Slab", serif;
+    font-weight: 100;
+    font-size: 14px;
+    margin: 20px 0px;
+    }
+
+    .mail a {
+    color: #fff;
+    text-decoration: none;
+    }
+
+    .mail a:hover {
+    color: wheat;
+    text-decoration: underline;
+    }
+
+    
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .mydropdown {
+        display: block;
+    }
+
+    .navbar-nav {
+        display: none;
+        color: white;
+    }
+
+    footer {
+    margin-top: -3em;
+    padding-bottom: 5em;
+    width: 100%;
+    }
+    .fahuz {
+        font-size: 16px;
+
+        text-align: left;
+        color: green;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+    }
+
+    .footer {
+        display: block;
+    }
+
+    .allign {
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+    .foot {
+        color: #fff;
+        font-family: "Roboto Slab", serif;
+        font-weight: 100;
+        font-size: 14px;
+    }
+
+    .foot .commission {
+        text-decoration: underline;
+        color: green;
+        padding-top: 50px;
+        font-size: 18px;
+        font-family: "Jost", sans-serif;
+    }
+
+    .list p {
+        padding-top: 50px;
+    }
+
+    .list li {
+        margin-top: 10px;
+    }
+
+    .touch {
+        padding-top: 50px;
+    } 
+}

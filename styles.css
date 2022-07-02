@@ -465,13 +465,16 @@ footer {
   text-decoration: underline;
 }
 
+
+
 @media (max-width: 600px) {
   .mydropdown {
-    display: flex;
+    display: block;
   }
 
   .navbar-nav {
     display: none;
+    color: white;
   }
   .p {
     display: none;

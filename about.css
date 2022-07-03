@@ -228,10 +228,6 @@ footer {
     font-size: 14px;
     }
 
-    .foot .commission {
-    text-decoration: underline;
-    }
-
     .speech {
     margin-right: 80px;
     }
@@ -303,7 +299,7 @@ footer {
 
     
 
-
+    
 
 
 
@@ -320,11 +316,97 @@ footer {
         color: white;
     }
 
+    .myrow {
+        display: block;
+    }
+
+    .history {
+        padding-top: 30px;
+    }
+
+    .about {
+    height: 450px;
+    }
+
+
+    .h1 {
+        padding-top: 6em;
+        } 
+
+    .p {
+        font-size: 16px;
+        }
+
+    .count {
+        font-size: 60px;
+    }
+
+    .h6 {
+        font-size: 14px;
+    }
+
+    .myrow {
+        padding-top: 6em;
+    }
+
+    .history {
+        font-size: 15px;
+    }
+
+
+    .h5 {
+        font-size: 21px;
+        margin-bottom: -17px;
+    }
+
+    .aims {
+        font-size: 26px;
+    }
+
+    .obj {
+        font-size: 16px;
+        line-height: 40px;
+    }
+
+    .activities {
+    height: 350px;
+    }
+
+    .act {
+        font-size: 30px;
+    }
+
+    .task{
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .contain{
+        margin-top: 4em;
+    }
+
+    .member{
+        font-size: 24px;
+    }
+
+    .mycol {
+        padding-top: 20px;
+    }
+
+    .ul li {
+        font-size: 16px;
+    }
+
+    .mcol img {
+        width: 470px;
+    }
+
     footer {
     margin-top: -3em;
     padding-bottom: 5em;
     width: 100%;
     }
+
     .fahuz {
         font-size: 16px;
 

@@ -314,6 +314,14 @@ footer {
         padding-top: 40px;
     }
 
+    img {
+        margin: 20px;
+    }
+
+    .rope {
+        padding-bottom: 80px;
+    }
+
     footer {
     margin-top: -3em;
     padding-bottom: 5em;

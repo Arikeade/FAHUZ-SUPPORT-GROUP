@@ -113,6 +113,10 @@ textarea {
         width: 370px;
     }
 
+    .contact {
+        text-align: center;
+    }
+
     .moil {
     font-size: 16px;
     }

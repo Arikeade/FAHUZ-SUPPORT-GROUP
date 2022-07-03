@@ -498,7 +498,7 @@ footer {
     background-repeat: no-repeat;
     opacity: 1;
     height: 470px;
-    background-size: contain;
+    background-size: cover;
   }
 
   .cc2 {
@@ -608,7 +608,7 @@ footer {
   }
 
   .policy p {
-    font-size: 22px;
+    font-size: 20px;
     color: wheat;
     text-transform: uppercase;
   }
@@ -617,7 +617,7 @@ footer {
     color: #fff;
     width: 80%;
     margin: auto;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .read {
@@ -665,6 +665,7 @@ footer {
   .wird a {
     color: #000;
     font-size: 16px;
+    text-decoration: none;
   }
 
   footer {

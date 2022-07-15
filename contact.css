@@ -72,6 +72,7 @@ input {
     background-color: rgb(223, 212, 212);
     border-radius: 20px;
     border: 0;
+    padding: 10px 20px;
 }
 
 textarea {
@@ -79,6 +80,19 @@ textarea {
     width: 450px;
     border-radius: 20px;
     border: 0;
+    padding: 10px 20px;
+}
+
+.submit{
+    width: 20%;
+    margin: 0;
+    padding: 10px 0;
+    border-radius: 20px;
+    border: 0;
+    background-color: chartreuse;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
 }
 
 .moil {

@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 .navbar {
     background-color: hsla(150, 50%, 4%, 0.804);
 }
@@ -248,6 +249,43 @@ footer {
     text-decoration: underline;
     }
 
+
+    /*gender*/
+
+    .gender {
+        text-align: center;
+        padding: 100px 0;
+        font-size: 60px;
+        color:brown;
+        font-family: "Jost", sans-serif;
+    }
+
+    .female {
+        text-align: center;
+        font-size: 40px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        padding: 10px 0 30px 0;
+    }
+
+    .policy {
+        font-size: 20px;
+        font-family: "Roboto Slab", serif;
+        font-weight: 400;
+        letter-spacing: 2px;
+    }
+
+    .span {
+        font-size: 30px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        padding: 10px;
+    }
+
+    .logo {
+        background-color: #000;
+        height: 300px;
+    }
     
 
 
@@ -366,6 +404,29 @@ footer {
 
     .list li {
         margin-top: 10px;
+    }
+
+    /*gender */
+
+    .gender {
+        font-size: 30px;
+        padding-top: 150px;
+    }
+
+    .female {
+        font-size: 20px;
+    }
+
+    .policy {
+        font-size: 15px;
+    }
+
+    .span {
+        font-size: 20px;
+    }
+
+    .level{
+        margin-bottom: 100px;
     }
 
 }

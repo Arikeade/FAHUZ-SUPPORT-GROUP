@@ -298,6 +298,46 @@ footer {
     }
 
     
+    /* Donate */
+
+    .mycontain {
+        background-image: url('./images/photo-1563291074-2bf8677ac0e5.jfif');
+        height: 900px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+
+    .mycil {
+        padding: 18em ;
+        width: 70%;
+        margin: auto;
+    }
+
+    .mycil h1 {
+        font-size: 55px;
+        letter-spacing: 8px;
+        font-family: "Jost", sans-serif;
+    }
+
+    .mycil h2 {
+        font-size: 40px;
+        letter-spacing: 6px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+    }
+
+    .mycil p{
+        font-size: 25px;
+        font-family: "Roboto Slab", serif;
+        font-weight: 100;
+        letter-spacing: 5px;
+        padding-top: 20px;
+    }
+
+    
+        
+
 
     
 
@@ -313,7 +353,6 @@ footer {
 
     .navbar-nav {
         display: none;
-        color: white;
     }
 
     .myrow {
@@ -451,4 +490,33 @@ footer {
     .touch {
         padding-top: 50px;
     } 
+
+    /*donate*/
+
+    .mycil {
+        padding: 9em ;
+        width: 90%;
+        margin: auto;
+    }
+
+    .mycil h1 {
+        font-size: 33px;
+        letter-spacing: 2px;
+        font-family: "Jost", sans-serif;
+    }
+
+    .mycil h2 {
+        font-size: 20px;
+        letter-spacing: 2px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+    }
+
+    .mycil p{
+        font-size: 18px;
+        font-family: "Roboto Slab", serif;
+        font-weight: 100;
+        letter-spacing: 2px;
+        padding-top: 20px;
+    }
 }

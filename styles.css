@@ -378,6 +378,10 @@ footer {
   padding-bottom: 2em;
 }
 
+.syx {
+  display: flex;
+}
+
 .fahuz {
   font-size: 16px;
   margin-left: 5px;
@@ -717,4 +721,62 @@ footer {
   .touch {
     padding-top: 50px;
   }
+}
+
+
+
+
+
+
+@media (min-width:601px) and (max-width: 1000px) {
+
+  .mydropdown {
+    display: block;
+    left: 10em;
+  }
+
+  .navbar-nav {
+    display: none;
+    color: white;
+  }
+
+  .policy {
+    padding-top: 7em;
+  }
+
+  .policy p {
+    font-size: 30px;
+  }
+
+  .policy .management {
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    font-size: 18px;
+  }
+
+  .read {
+    width: 20%;
+    margin: auto;
+  }
+
+  .read button {
+    padding: 5px 0px;
+    margin-top: 20px;
+  }
+
+  .footer {
+    display: block;
+  }
+
+  .allign {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  }
+
+  .syx {
+    display: block;
+  }
+
 }

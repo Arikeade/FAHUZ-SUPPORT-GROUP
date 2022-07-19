@@ -147,7 +147,7 @@ h4 {
     text-align: center;
 }
 
-.act {
+#act {
     font-size: 38px;
     font-family: 'Jost', sans-serif;
     text-align: center;
@@ -335,6 +335,10 @@ footer {
         padding-top: 20px;
     }
 
+    .syx {
+        display: flex;
+    }
+
     
         
 
@@ -514,6 +518,110 @@ footer {
 
     .mycil p{
         font-size: 18px;
+        font-family: "Roboto Slab", serif;
+        font-weight: 100;
+        letter-spacing: 2px;
+        padding-top: 20px;
+    }
+}
+
+
+
+
+
+@media (min-width:601px) and (max-width: 1000px) {
+
+    .mydropdown {
+    display: block;
+    left: 10em;
+    }
+
+    .navbar-nav {
+        display: none;
+    }
+
+    .myrow{
+        display: block;
+    }
+
+    .krow {
+        display: block;
+        text-align: center;
+    }
+
+    .mycol ul {
+        text-align: left;
+    }
+
+    .footer {
+        display: block;
+    }
+
+    .allign {
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+
+    .syx {
+    display: block;
+    }
+
+    /*donate*/
+
+    .mycil {
+        padding: 16em 3em 0px 3em ;
+        width: 100%;
+        margin: auto;
+    }
+
+    .mycil h1 {
+        font-size: 50px;
+        letter-spacing: 15px;
+        font-family: "Jost", sans-serif;
+    }
+
+    .mycil h2 {
+        font-size: 28px;
+        letter-spacing: 10px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+    }
+
+    .mycil p{
+        font-size: 24px;
+        font-family: "Roboto Slab", serif;
+        font-weight: 100;
+        letter-spacing: 2px;
+        padding-top: 20px;
+    }
+}
+
+@media (min-width:1001px) and (max-width: 1400px) {
+
+    /*donate*/
+
+    .mycil {
+        padding: 16em 3em 0px 3em ;
+        width: 100%;
+        margin: auto;
+    }
+
+    .mycil h1 {
+        font-size: 50px;
+        letter-spacing: 15px;
+        font-family: "Jost", sans-serif;
+    }
+
+    .mycil h2 {
+        font-size: 28px;
+        letter-spacing: 10px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+    }
+
+    .mycil p{
+        font-size: 24px;
         font-family: "Roboto Slab", serif;
         font-weight: 100;
         letter-spacing: 2px;

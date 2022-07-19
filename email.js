@@ -6,9 +6,9 @@ function sendEmail(e) {
   email = document.getElementById("email");
 
   Email.send({
-    SecureToken: "21f7de5a-90c8-4ed5-b35b-5ef5a7db5f2f",
-    To: "arikeadeoluwaseun@gmail.com",
-    From: `arikeadeoluwaseun@gmail.com`,
+    SecureToken: "fee46cea-99be-4e69-8958-fe704e24f534",
+    To: "fahuzsg@gmail.com",
+    From: `fahuzsg@gmail.com`,
     Subject: `Get in touch from ${user.value}`,
     Body: `
         <h1>${user.value} is trying to get in touch with you</h1>

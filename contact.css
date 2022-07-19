@@ -1,160 +1,160 @@
 * {
-  margin: 0;
-  width: 100%;
-  box-sizing: border-box;
-}
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    }
 
-.navbar {
-  background-color: hsla(150, 50%, 4%, 0.804);
-}
+    .navbar {
+    background-color: hsla(150, 50%, 4%, 0.804);
+    }
 
-.img {
-  width: 78px;
-  height: 72px;
-}
+    .img {
+    width: 78px;
+    height: 72px;
+    }
 
-h4 {
-  font-size: 18px;
-  margin-left: 5px;
-  font-family: "Poppins", sans-serif;
-  text-shadow: green 2px 0, green 2px 0;
-}
-
-.mydropdown {
-  display: none;
-}
-
-.pic {
-  background-image: linear-gradient(
-      45deg,
-      rgba(55, 45, 45, 0.75),
-      rgba(36, 45, 53, 0.75)
-    ),
-    url("images/imdadul-hussain-YiA4wqVpLQQ-unsplash.jpg");
-  height: 450px;
-  width: 100%;
-  margin: auto;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-}
-
-.fluid {
-  margin-top: 3em;
-  margin-bottom: 50px;
-}
-
-.contact {
-  margin-top: 50px;
-}
-
-.get {
-  padding-top: 6em;
-  color: #fff;
-  font-size: 38px;
-  letter-spacing: 5px;
-  font-family: "Jost", sans-serif;
-  text-shadow: green 2px 0, green 2px 0;
-}
-
-label {
-  font-size: 24px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-}
-
-input {
-  width: 450px;
-  height: 50px;
-  background-color: rgb(223, 212, 212);
-  border-radius: 20px;
-  border: 0;
-  padding: 10px 20px;
-}
-
-textarea {
-  background-color: rgb(223, 212, 212);
-  width: 450px;
-  border-radius: 20px;
-  border: 0;
-  padding: 10px 20px;
-}
-
-.submit {
-  width: 20%;
-  margin: 0;
-  padding: 10px 0;
-  border-radius: 20px;
-  border: 0;
-  background-color: chartreuse;
-  font-size: 18px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-}
-
-.moil {
-  color: black;
-  font-family: "Roboto Slab", serif;
-  font-weight: 400;
-  font-size: 22px;
-  margin: 25px 0px;
-}
-
-@media (max-width: 600px) {
-  .mydropdown {
-    display: block;
-  }
-
-  .navbar-nav {
-    display: none;
-  }
-
-  input {
-    width: 350px;
-  }
-
-  textarea {
-    width: 370px;
-  }
-
-  .contact {
-    text-align: center;
-  }
-
-  .moil {
-    font-size: 16px;
-  }
-
-  .get {
-    font-size: 32px;
-  }
-
-  label {
+    h4 {
     font-size: 18px;
-  }
+    margin-left: 5px;
+    font-family: "Poppins", sans-serif;
+    text-shadow: green 2px 0, green 2px 0;
+    }
 
-  .pic {
-    height: 400px;
-  }
-
-  .submit {
-    width: 30%;
-    margin: 0;
-  }
-}
-
-@media (min-width: 601px) and (max-width: 1000px) {
-  .mydropdown {
-    display: block;
-    left: 10em;
-  }
-
-  .navbar-nav {
+    .mydropdown {
     display: none;
-  }
+    }
 
-  .submit {
-    width: 40%;
+    .pic {
+    background-image: linear-gradient(
+        45deg,
+        rgba(55, 45, 45, 0.75),
+        rgba(36, 45, 53, 0.75)
+        ),
+        url("images/imdadul-hussain-YiA4wqVpLQQ-unsplash.jpg");
+    height: 450px;
+    width: 100%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    }
+
+    .fluid {
+    margin-top: 3em;
+    margin-bottom: 50px;
+    }
+
+    .contact {
+    margin-top: 50px;
+    }
+
+    .get {
+    padding-top: 6em;
+    color: #fff;
+    font-size: 38px;
+    letter-spacing: 5px;
+    font-family: "Jost", sans-serif;
+    text-shadow: green 2px 0, green 2px 0;
+    }
+
+    label {
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    }
+
+    input {
+    width: 450px;
+    height: 50px;
+    background-color: rgb(223, 212, 212);
+    border-radius: 20px;
+    border: 0;
+    padding: 10px 20px;
+    }
+
+    textarea {
+    background-color: rgb(223, 212, 212);
+    width: 450px;
+    border-radius: 20px;
+    border: 0;
+    padding: 10px 20px;
+    }
+
+    .submit {
+    width: 20%;
     margin: 0;
-  }
+    padding: 10px 0;
+    border-radius: 20px;
+    border: 0;
+    background-color: chartreuse;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    }
+
+    .moil {
+    color: black;
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    font-size: 22px;
+    margin: 25px 0px;
+    }
+
+    @media (max-width: 600px) {
+    .mydropdown {
+        display: block;
+    }
+
+    .navbar-nav {
+        display: none;
+    }
+
+    input {
+        width: 350px;
+    }
+
+    textarea {
+        width: 370px;
+    }
+
+    .contact {
+        text-align: center;
+    }
+
+    .moil {
+        font-size: 16px;
+    }
+
+    .get {
+        font-size: 32px;
+    }
+
+    label {
+        font-size: 18px;
+    }
+
+    .pic {
+        height: 400px;
+    }
+
+    .submit {
+        width: 30%;
+        margin: 0;
+    }
+    }
+
+    @media (min-width: 601px) and (max-width: 1000px) {
+    .mydropdown {
+        display: block;
+        left: 10em;
+    }
+
+    .navbar-nav {
+        display: none;
+    }
+
+    .submit {
+        width: 40%;
+        margin: 0;
+    }
 }
